@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: 12px/1.5 "Microsoft Yahei","微软雅黑",verdana;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.yx-top-bar {
+    position: relative;
+    height: 36px;
+
+    background-color: #333;
+
+    font-size: 12px;
+    line-height: 36px;
+    font-family: "Heiti SC","Lucida Grande","Hiragino Sans GB","Hiragino Sans GB W3",verdana;
+}
+
+.yx-top-bar-left {
+    position: absolute;
+    left: 165px;
+    height: 36px;
+}
+
+.yx-top-bar-right {
+    position: absolute;
+    right: 165px;
+}
+
+.yx-top-bar-news {
+    float: right;
+    height: 36px;
+    margin-left: 20px;
+    
+
+    background: url("http://yanxuan.nosdn.127.net/d132c2561f18f1149d566a60d05fd9b7.gif") center left no-repeat;
+}
+
+.yx-top-bar-news-ul {
+    height: 36px;
+    margin-left: 26px;
+    overflow: hidden;
+}
+
+.yx-top-bar-item {
+    color: #ccc;
+
+    font-size: 12px;
+}
+
+.yx-top-bar-news-item {
+    text-decoration: underline;
+    color: #b4a078;
+}
+
+.yx-top-bar-right-item {
+    height: 36px;
+    float: left;
+    margin: 0 5px;
+}
+
+.yx-top-bar-item:hover {
+    color: #fff;
+}
+
+.yx-top-bar-right-item.seperator::before {
+    content: "";
+    display: inline-block;
+    height: 16px;
+    margin-right: 10px;
+    border-left: 1px solid #5c5c5c;
+    vertical-align: middle;
+}
+
+.yx-top-bar-login {
+    margin-right: 20px;
+}
+
+.yx-icon {
+    display: inline-block;
+    background-image: url("http://yanxuan.nosdn.127.net/hxm/yanxuan-component/p/20170601/style/img/x1/icon-yxtop-sc6353bfedb-173a41cd9d.png");
+    vertical-align: middle;
+}
+
+.yx-icon-upArrow {
+    background-position: 0 -321px;
+    height: 5px;
+    width: 11px;
+    margin-left: 10px;
+}
+
+.yx-top-bar-item-service:hover i {
+    transform: rotate(0.5turn);
+}
+
+.yx-icon-phone {
+    background-position: 0 0;
+    height: 11px;
+    width: 7px;
+    margin-right: 5px;
+}
+
